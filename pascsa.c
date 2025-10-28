@@ -10,6 +10,8 @@ long long factorial(int n) {
     return f;
 }
 
+
+
 // declined Pascal triangle
 void declined_pascal(int n) {
     for (int i = 0; i < n; i++) {
