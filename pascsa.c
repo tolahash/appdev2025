@@ -10,11 +10,6 @@ long long factorial(int n) {
     return f;
 }
 
-// compute n choose k
-long long n_choose_k(int n, int k) {
-    return factorial(n) / (factorial(k) * factorial(n - k));
-}
-
 // declined Pascal triangle
 void declined_pascal(int n) {
     for (int i = 0; i < n; i++) {
